@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 2.4</title>
+    <style>
+        .block{
+            position: relative;
+            left: 20px;
+        }
+        .line_1{
+             border-bottom: 1px solid rgb(0, 0, 0)
+            }
+        .vl{
+             border-left: 1px solid rgb(0, 0, 0);
+             height: 325px;
+             position: absolute;
+             left: 800px;
+             top: 120px;
+            }
+        .bl{
+            position: absolute;
+            left: 30px;
+            top: 120px;
+        }
+        .vvid{
+            width: 650px;
+            height: 50px;
+        }
+        .silka{
+            position: relative;
+            left: 360px;
+            text-decoration: none;
+        }
+        .but{
+            width: 650;
+            height: 50;
+            background-size: 650px 50px;
+            background-color: rgb(40, 185, 40);
+        }
+        .text1{
+            width: 650px;
+            height: 50;
+            
+            color: white;
+        }
+        .lin{
+            position: relative;
+            left: 250px;
+            text-decoration: none;
+        }
+        .text2{
+            position: absolute;
+            left: 786px;
+            top: 450px;
+        }
+        .line2{
+            border-left: 1px solid rgb(0, 0, 0);
+             height: 300px;
+             position: absolute;
+             left: 800px;
+             top: 475px;
+        }
+        .but2{
+            position: absolute;
+            left: 1250px;
+            top: 120px;
+            background-color: white;
+        }
+        .but3{
+            position: relative;
+            left: -75px;
+        }
+        .text3{
+            position: relative;
+            top: -7px;
+        }
+        .link{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <big><h1 class="block">Вхід</h1></big>
+    <div class="line_1"></div>
+    <div class="vl"></div>
+    <div class="bl"><big>Фамілія</big><br>
+        <input type="name" class="vvid"><br><br><br>
+         <big>Ім'я</big><br>
+        <input type="password" name="name" class="vvid"><br><br>
+        <big>Ел.почта або телефон</big><br>
+        <input type="email" type="tel" class="vvid"><br><br><br>
+        <big>Пароль</big><br>
+        <input type="password" class="vvid">
+        <pre><big>Пароль має містити не меньше 6 символів, включати цифри та латинські літери,
+в тому числі великі, і неповинен співпадати з ім'ям та ел.почтою</big>
+        </pre>
+        <pre><big>Реєструючись, ви погоджуєтесь з <a href="#" class="link">користувацькою згодою</a></big></pre>
+        <button class="but" style="padding: 22px 270px ;"><strong class="text1">Зареєструватися</strong></button><br><br><br><br>
+        <a class="lin" href="#"><big>Я вже зареєстрований</big></a>
+    </div>
+    <div class="text2">
+        <big>або</big>
+    </div>
+    <div class="line2"></div>
+    <div  class="but2">
+        <big>Ввійти як користувач</big><br><br>
+    <button style="padding: 10px 100px;" class="but3">
+        <img src="face.png" width="50">
+        <big class="text3"><a href="https://www.facebook.com/campaign/landing.php?&campaign_id=1600506847&extra_1=s%7Cc%7C515922865595%7Ce%7Cfacebook%7C&placement=&creative=515922865595&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506847%26adgroupid%3D60825662376%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1012871%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQjw2_OWBhDqARIsAAUNTTHbLLSb4GkNpCk0Wg1yoUfBHos5VXG6lTvXmJ5V4JIYipiZbgw0nnMaAllrEALw_wcB" class="link">Facebook</a></big>
+     </button><br><br>
+     <button style="padding: 10px 122px;" class="but3">
+        <img src="gg.png" width="25">
+        <big class="text3"><a class="link" href="https://accounts.google.com/signin/v2/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Ftab%3Dkk&ec=GAlAwAE&flowName=GlifWebSignIn&flowEntry=AddSession">Google</a></big>
+     </button>
+    </div>
+</body>
+</html>
