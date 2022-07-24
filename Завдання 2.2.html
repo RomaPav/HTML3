@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 2.2</title>
+    <style>
+        .block_1{
+            position:absolute;
+            left: 160px;
+            top: 20px;
+        }
+        .block_2{
+            position:relative;
+            top: -3px;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <div>
+        Логін:<br><br>
+        Пароль:<br><br>
+        Повторіть пароль:<br><br>
+        Стать:<br><br><br>
+        Вкажіть мічто:<br><br><br>
+        Інтереси:
+    </div>
+    <br>
+    <div class="block_1">
+        <input placeholder="" type="email"><br><br>
+        <input placeholder="" type="password"><br><br>
+        <input placeholder="" type="password"><br><br>
+        <input type="radio" name="radio" height="1">Чоловіча<input type="radio" name="radio" height="1">Жіноча<br><br>
+        <select name="city" size="3">
+            <option value="1">Житомир</option>
+            <option value="2">Київ</option>
+            <option value="3">Львів</option>
+        </select>
+        <p class="block_2"><input type="checkbox">футбол<input type="checkbox" class="block_2">шахи<input type="checkbox" class="block_2">малювання<input type="checkbox" class="block_2">музика</p>
+        <button>Очистити</button><button>Відпраити</button>
+    </div><br>
+    
+</body>
+</html>
